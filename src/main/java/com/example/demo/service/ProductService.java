@@ -8,7 +8,7 @@ import java.util.List;
 
 public interface ProductService {
 
-    Object saveProduct(Product product);
+    Product saveProduct(Product product);
 
     Brand saveBrand(Brand brand);
 

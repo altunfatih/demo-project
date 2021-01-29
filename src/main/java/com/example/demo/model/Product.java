@@ -21,9 +21,9 @@ public class Product {
     private int m_stock;
 
     @ManyToOne
-    private Brand brand;
+    private Brand m_brand;
 
     @ManyToOne
-    private Category category;
+    private Category m_category;
 
 }
